@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main (){
+	
+	int codCartao, HHMM, mC, cC, dC, uC, mH, cH, dH, uC, codigo;
+	printf("Digite os digitos finais do numero do cartao: ");
+	scanf("%d", &codCartao);
+	printf("Digite o horario da transacao: ");
+	scanf("%d", &HHMM);
+	
+	//Seperar algarismos do numero:
+	mC = codCartao / 1000;
+	cC = (codCartao % 1000) / 100;
+	dC = (codCartao % 100) / 10;
+	uC = codCartao / 10;
+	//Separar algarismos do horario:
+	mH = HHMM / 1000;
+	cH = (HHMM % 1000) / 100;
+	dH = (HHMM % 100) / 10;
+	uH = HHMM / 10;
+	
+	
+	if()
+	
+}
